@@ -60,6 +60,7 @@ Start by opening your terminal or command prompt.
     npm i
     ```
 - Run the following command in the terminal
+  
   Android
     ```bash
     npm run android
