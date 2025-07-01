@@ -28,22 +28,27 @@ Start by opening your terminal or command prompt.
 ### 3. Backend Setup
 
 - Open your terminal and navigate to the folder where the cloned project is located.
+  
 - Navigate to the ``` api ``` Folder
     ```bash
     cd api
     ```
+    
 - Run the following command to install dependencies
     ```bash
     npm i
     ```
+    
 - Open the ``` .env ``` file inside the ``` api ``` folder and update the ``` DATABASE_URL ``` configuration to match your PostgreSQL username, password, and database name.
     ```bash
     DATABASE_URL="postgresql://username:password@localhost:5432/db_barang?schema=public"
     ```
+    
 - Run the following command to apply the database migrations
     ```bash
     npx prisma migrate dev
     ```
+    
 - Run the following command in the terminal
     ```bash
     npm run dev
@@ -55,10 +60,12 @@ Start by opening your terminal or command prompt.
     ```bash
     const url = "http://192.168.255.255:3001"
     ```
-- Run the following command to install dependencies
+    
+- Open your terminal and run the following command to install dependencies
     ```bash
     npm i
     ```
+    
 - Run the following command in the terminal
   
   Android
