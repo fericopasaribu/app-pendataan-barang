@@ -28,7 +28,7 @@ Start by opening your terminal or command prompt.
 ### 3. Backend Setup
 
 - Open your terminal and navigate to the folder where the cloned project is located.
-- Navigate to the ```bash api ``` Folder
+- Navigate to the ``` api ``` Folder
     ```bash
     cd api
     ```
