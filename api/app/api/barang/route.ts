@@ -51,7 +51,7 @@ export const GET = async (req: NextRequest) => {
 
 export const POST = async (request: NextRequest) => {
 
-     const formData = await request.formData() as any;
+    const formData = await request.formData() as unknown as FormData;
 
     const file = formData.get("foto") as File | null
 
