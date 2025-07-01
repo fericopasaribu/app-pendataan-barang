@@ -36,7 +36,7 @@ Start by opening your terminal or command prompt.
     ```bash
     npm i
     ```
-- Open the ```bash .env ``` file inside the api folder and update the DATABASE_URL configuration to match your PostgreSQL username, password, and database name.
+- Open the ``` .env ``` file inside the ``` api ``` folder and update the DATABASE_URL configuration to match your PostgreSQL username, password, and database name.
     ```bash
     DATABASE_URL="postgresql://username:password@localhost:5432/db_barang?schema=public"
     ```
@@ -51,7 +51,7 @@ Start by opening your terminal or command prompt.
 
 ### 4. Frontend Setup
 
-- Change the URL in the Strings.ts file inside the constants folder and adjust it to match the IP address of the device/emulator and the laptop/PC
+- Change the ``` url ``` in the ``` Strings.ts ``` file inside the ``` constants ``` folder and adjust it to match the IP address of the device/emulator and the laptop/PC
     ```bash
     const url = "http://192.168.1.12:3001"
     ```
