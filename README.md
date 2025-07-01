@@ -1,4 +1,4 @@
-# Student Data Collection App
+# Goods Data Collection App
 
 An mobile application for managing goods data built using NextJS and React Native.
 
@@ -23,8 +23,8 @@ Start by opening your terminal or command prompt.
 ### 2. Clone the Repository
 
    ```bash
-   git clone https://github.com/fericopasaribu/pendataan-mahasiswa.git
-   cd pendataan-mahasiswa
+   git clone https://github.com/fericopasaribu/pendataan-barang.git
+   cd pendataan-barang
    ```
 ### 3. Install Dependencies
 
