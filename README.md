@@ -5,10 +5,9 @@ An mobile application for managing goods data built using NextJS and React Nativ
 ## Tech Stack
 
 - **Programming Language**:
-  - Back End : NextJS (v15.3.4)
+  - Back End: NextJS (v15.3.4)
   - Front End: React Native (v0.79.4)  
-- **UI Libraries**:    
-  - React Native Paper (v5.14.5)  
+- **UI Libraries**: React Native Paper (v5.14.5)  
 - **ORM**: Prisma (v6.10.1) 
 - **Database**: PostgreSQL (v16.9)
 
