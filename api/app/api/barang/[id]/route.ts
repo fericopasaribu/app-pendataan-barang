@@ -146,7 +146,7 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         })
     }
 
-    const formData = await request.formData()
+    const formData = await request.formData() as unknown as FormData
 
     // cek apakah id sudah pernah ada / belum
     const checkData = await prisma.tb_barang.findMany({

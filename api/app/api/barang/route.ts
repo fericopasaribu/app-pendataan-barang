@@ -9,7 +9,7 @@ import sharp from "sharp";
 // Prisma
 const prisma = new PrismaClient();
 
-export const GET = async (req: Request) => {
+export const GET = async (req: NextRequest) => {
     const { searchParams } = new URL(req.url);
     let keyword = searchParams.get("search") || "";
 
@@ -51,7 +51,8 @@ export const GET = async (req: Request) => {
 
 export const POST = async (request: NextRequest) => {
 
-    const formData = await request.formData()
+    const formData = await request.formData() as unknown as FormData;
+
     const file = formData.get("foto") as File | null
 
     const checkData = await prisma.tb_barang.findMany({
