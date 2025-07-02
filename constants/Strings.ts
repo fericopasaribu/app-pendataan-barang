@@ -1,5 +1,5 @@
 // sesuaikan url dengan IP Device/Emulator dan Laptop/PC
-const url = "http://192.168.255.255:3001"
+const url = "http://192.168.1.12:3001"
 const api = `${url}/api`
 const barang = "Barang"
 
