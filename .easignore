@@ -1,4 +1,4 @@
-.expo/
+.expo
 .expo-shared/
 node_modules/
 android/
