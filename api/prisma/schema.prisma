@@ -15,9 +15,9 @@ datasource db {
 }
 
 model tb_barang {
-  id        Int      @id @default(autoincrement())
-  kode String @db.VarChar(20)
-  nama String @db.VarChar(100)
+  id    Int    @id @default(autoincrement())
+  kode  String @db.VarChar(20)
+  nama  String @db.VarChar(100)
   harga Int
-  foto String @db.VarChar(50)
+  foto  String @db.VarChar(50)
 }

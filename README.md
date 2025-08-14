@@ -1,6 +1,8 @@
 # Goods Data Collection App
 
-A mobile application for managing goods data built using NextJS and React Native.
+Mobile application for managing goods data built using NextJS and React Native.
+
+---
 
 ## Tech Stack
 
@@ -22,8 +24,8 @@ Start by opening your terminal or command prompt.
 ### 2. Clone the Repository
 
    ```bash
-   git clone https://github.com/fericopasaribu/pendataan-barang.git
-   cd pendataan-barang
+   git clone https://github.com/fericopasaribu/app-pendataan-barang.git
+   cd app-pendataan-barang
    ```
 ### 3. Backend Setup
 
@@ -76,3 +78,9 @@ Start by opening your terminal or command prompt.
     ```bash
     npm run ios
     ```
+
+---
+
+## API Documentation
+
+https://tamanata-app-barang.apidog.io/
